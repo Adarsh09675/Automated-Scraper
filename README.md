@@ -56,8 +56,6 @@ This eliminates manual searching and enables **repeatable, scalable product moni
 9. Sorts and ranks products  
 10. Saves structured data to a CSV file  
 
----
-
 
 ---
 
