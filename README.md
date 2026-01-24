@@ -50,7 +50,7 @@ To automate the process of browsing Flipkart and identifying **Apple products ne
 
 ## ▶️ Installation & Usage
 
-### Prerequisites
+Prerequisites
 
 Make sure Node.js is installed:
 
@@ -76,7 +76,7 @@ node src/scrape.js
 
 The browser will open automatically and start scraping.
 
-##📁 Output
+## 📁 Output
 
 After execution, a CSV file will be generated at:
 
