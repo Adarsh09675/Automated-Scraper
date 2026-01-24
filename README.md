@@ -73,20 +73,7 @@ Verify installation:
 node -v
 npm -v
 
-## ▶️ Installation & Setup
-
-### Prerequisites
-
-- Node.js (LTS recommended)  
-- Git  
-- Stable internet connection  
-
-Verify installation:
-
-```bash
-node -v
-npm -v
-
+---
 Step 1: Clone the repository
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
@@ -102,7 +89,7 @@ node src/scrape.js
 
 
 The browser will open automatically and start scraping.
-
+---
 📁 Output
 
 After execution, a CSV file will be generated at:
@@ -127,7 +114,7 @@ Source
 Scrape timestamp
 
 You can open it using Excel, Google Sheets, or import it into any database.
-
+---
 🚀 Use Cases
 
 Product monitoring
@@ -141,7 +128,7 @@ Deal discovery
 E-commerce analysis
 
 Learning browser automation and scraping
-
+---
 ⚠️ Important Notes
 
 Flipkart UI changes may require selector updates.
@@ -151,7 +138,7 @@ Avoid running the scraper too frequently.
 Respect website terms of service and robots.txt.
 
 This project is intended for educational and research purposes only.
-
+---
 🔮 Future Improvements
 
 Database integration (MongoDB / Supabase)
@@ -163,7 +150,7 @@ Price history tracking
 Email or WhatsApp alerts
 
 Web dashboard visualization
-
+---
 📌 Author
 
 Developed by Adarsh Mishra
