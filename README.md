@@ -58,17 +58,6 @@ This eliminates manual searching and enables **repeatable, scalable product moni
 
 ---
 
-## 📂 Project Structure
-
-flipkart-apple-scraper/
-│
-├── src/
-│ └── scrape.js
-├── data/
-│ └── apple_products_near_30000.csv
-├── package.json
-└── README.md
-
 
 ---
 
