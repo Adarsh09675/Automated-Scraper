@@ -1,80 +1,64 @@
-🍎 Flipkart Apple Product Scraper (₹30,000 Range)
+# 🍎 Flipkart Apple Product Scraper (₹30,000 Range)
 
-An automated browser-based web scraping system built using Node.js and Playwright that extracts Apple products from Flipkart priced around ₹30,000.
-The scraper handles dynamic content, lazy loading, popups, and pagination, then cleans and exports structured product data into a CSV file for monitoring and analysis.
+An automated **browser-based web scraping system** built using **Node.js and Playwright** that extracts Apple products from Flipkart priced around ₹30,000.  
+The scraper handles **dynamic content, lazy loading, popups, and pagination**, then cleans and exports structured product data into a CSV file for monitoring and analysis.
 
-🎯 Project Objective
+---
 
-To automate the process of browsing Flipkart and identifying Apple products near ₹30,000, eliminating the need for manual searching and enabling structured data collection for analysis and tracking.
+## 🎯 Project Objective
 
-✨ Features
+To automate the process of browsing Flipkart and identifying **Apple products near ₹30,000**, eliminating the need for manual searching and enabling structured data collection for analysis and tracking.
 
-Automated Flipkart browsing using a real browser
+---
 
-Handles JavaScript-rendered and lazy-loaded content
+## ✨ Features
 
-Automatically closes login popups
+- Automated Flipkart browsing using a real browser  
+- Handles JavaScript-rendered and lazy-loaded content  
+- Automatically closes login popups  
+- Supports pagination across multiple result pages  
+- Extracts product name, price, link, and image  
+- Filters products within the ₹27,000–₹33,000 range  
+- Sorts and ranks results  
+- Exports data to CSV format  
 
-Supports pagination across multiple result pages
+---
 
-Extracts product name, price, link, and image
+## 🛠️ Tech Stack
 
-Filters products within the ₹27,000–₹33,000 range
+- **Node.js** – runtime environment  
+- **Playwright** – browser automation  
+- **csv-writer** – CSV generation  
+- **fs (File System)** – file handling  
 
-Sorts and ranks results
+---
 
-Exports data to CSV format
+## ⚙️ How It Works
 
-🛠️ Tech Stack
+1. Launches an automated Chromium browser  
+2. Opens Flipkart Apple product search page  
+3. Closes login popup if it appears  
+4. Scrolls pages to load all products  
+5. Extracts raw product information  
+6. Cleans and parses product data  
+7. Filters Apple products near ₹30,000  
+8. Handles pagination automatically  
+9. Sorts and ranks products  
+10. Saves structured data to a CSV file  
 
-Node.js – runtime environment
+---
 
-Playwright – browser automation
+## ▶️ Installation & Usage
 
-csv-writer – CSV generation
-
-fs (File System) – file handling
-
-⚙️ How It Works
-
-Launches an automated Chromium browser
-
-Opens Flipkart Apple product search page
-
-Closes login popup if it appears
-
-Scrolls pages to load all products
-
-Extracts raw product information
-
-Cleans and parses product data
-
-Filters Apple products near ₹30,000
-
-Handles pagination automatically
-
-Sorts and ranks products
-
-Saves structured data to a CSV file
-
-📂 Project Structure
-flipkart-apple-scraper/
-│
-├── src/
-│   └── scrape.js
-├── data/
-│   └── apple_products_near_30000.csv
-├── package.json
-└── README.md
-
-▶️ Installation & Usage
-Prerequisites
+### Prerequisites
 
 Make sure Node.js is installed:
 
+```bash
 node -v
 npm -v
 
+---
 Step 1: Clone the repository
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
@@ -88,10 +72,11 @@ npx playwright install
 Step 4: Run the scraper
 node src/scrape.js
 
+---
 
 The browser will open automatically and start scraping.
 
-📁 Output
+##📁 Output
 
 After execution, a CSV file will be generated at:
 
