@@ -1,0 +1,28 @@
+# Node modules
+node_modules/
+
+# Playwright browsers cache (optional, large files)
+.playwright/
+playwright-report/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Editor / IDE settings
+.vscode/
+.idea/
+*.swp
+
+# Output data (optional – remove this if you want to track CSVs)
+data/
